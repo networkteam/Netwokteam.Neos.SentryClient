@@ -4,8 +4,8 @@
     "license": "MIT",
     "description": "A sentry client for Neos CMS",
     "require": {
-        "networkteam/sentryclient": "~5.0",
-        "neos/neos": "~4.0"
+        "networkteam/sentryclient": "~4.0",
+        "neos/neos": "~3.0"
     },
     "autoload": {
         "psr-4": {
