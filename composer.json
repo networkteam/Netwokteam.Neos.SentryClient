@@ -5,7 +5,7 @@
     "description": "A sentry client for Neos CMS",
     "require": {
         "networkteam/sentryclient": "~5.0 || ~6.0",
-        "neos/neos": "~9.0"
+        "neos/neos": "~9.0",
         "neos/contentgraph-doctrinedbaladapter": "*"
     },
     "autoload": {
