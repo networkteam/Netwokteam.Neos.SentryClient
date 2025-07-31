@@ -7,6 +7,14 @@ It's based on https://github.com/getsentry/sentry-php.
 
 Have a look at https://sentry.io for more information about Sentry.
 
+Compatibility:
+--------------
+
+| Neos CMS | Plugin Version  |
+| -------- | --------------- |
+| >= 9.0   | 5.x             |
+| >= 4.0   | 4.x             |
+
 Installation:
 -------------
 
