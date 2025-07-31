@@ -33,7 +33,7 @@ class FusionHandlerAspect
         }
         $exception = $joinPoint->getMethodArgument('exception');
         $args = $joinPoint->getMethodArguments();
-        $fusionPath = $args['fusionPath'] ?? $args['fusionPath'];
+        $fusionPath = $args['fusionPath'];
         $this->errorHandler->handleException($exception, ['fusionPath' => $fusionPath]);
     }
 }

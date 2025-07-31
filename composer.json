@@ -8,7 +8,7 @@
         "neos/neos": "~9.0"
     },
     "require-dev": {
-      "neos/contentgraph-doctrinedbaladapter": "*"
+        "neos/contentgraph-doctrinedbaladapter": "*"
     },
     "autoload": {
         "psr-4": {
