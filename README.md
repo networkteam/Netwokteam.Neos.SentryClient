@@ -10,10 +10,10 @@ Have a look at https://sentry.io for more information about Sentry.
 Compatibility:
 --------------
 
-| Neos CMS | Plugin Version  |
-| -------- | --------------- |
-| >= 9.0   | 5.x             |
-| >= 4.0   | 4.x             |
+| Neos CMS      | Plugin Version |
+|---------------|----------------|
+| >= 8.3        | 5.x            |
+| >= 4.0, < 9.0 | 4.x            |
 
 Installation:
 -------------
@@ -30,8 +30,8 @@ Add the following to your `Settings.yaml` and replace the `dsn` setting with you
         # The Sentry DSN
         dsn: 'http://public_key:secret_key@your-sentry-server.com/project-id'
 
-You can implement the `\Networkteam\SentryClient\User\UserContextServiceInterface` to pass your own user context 
-information to the logging. If you do not have the TYPO3.Party Package and don't want to implement your own 
+You can implement the `\Networkteam\SentryClient\User\UserContextServiceInterface` to pass your own user context
+information to the logging. If you do not have the TYPO3.Party Package and don't want to implement your own
 `UserContextService` you need to set the `\Networkteam\SentryClient\User\DummyUserContext` in the Objects.yaml like
 
     Networkteam\SentryClient\User\UserContextServiceInterface:
